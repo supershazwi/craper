@@ -43,10 +43,19 @@ export default function Scraper({}) {
                                     <span className="h6 mb-0">Sections</span>
                                 </div>
                                 <div className="list-group list-group-flush">
+                                    <a href="#screenshots" data-scroll-to data-scroll-to-offset="50" className="list-group-item list-group-item-action d-flex justify-content-between px-4">
+                                        <div>
+                                            <i class="fas fa-camera-retro mr-2"></i>
+                                            <span style={{ fontSize: "1rem" }}>Screenshots</span>
+                                        </div>
+                                        <div>
+                                            <i data-feather="chevron-right"></i>
+                                        </div>
+                                    </a>
                                     <a href="#introduction" data-scroll-to data-scroll-to-offset="50" className="list-group-item list-group-item-action d-flex justify-content-between px-4">
                                         <div>
                                             <i className="fas fa-home mr-2"></i>
-                                            <span>Introduction</span>
+                                            <span style={{ fontSize: "1rem" }}>Introduction</span>
                                         </div>
                                         <div>
                                             <i data-feather="chevron-right"></i>
@@ -55,7 +64,7 @@ export default function Scraper({}) {
                                     <a href="#input_output" data-scroll-to data-scroll-to-offset="50" className="list-group-item list-group-item-action d-flex justify-content-between px-4">
                                         <div>
                                             <i className="fas fa-sign-in-alt mr-2"></i>
-                                            <span>Input & Output</span>
+                                            <span style={{ fontSize: "1rem" }}>Input & Output</span>
                                         </div>
                                         <div>
                                             <i data-feather="chevron-right"></i>
@@ -64,7 +73,7 @@ export default function Scraper({}) {
                                     <a href="#comments" data-scroll-to data-scroll-to-offset="50" className="list-group-item list-group-item-action d-flex justify-content-between px-4">
                                         <div>
                                             <i class="fas fa-comment-dots mr-2"></i>
-                                            <span>Testimonials</span>
+                                            <span style={{ fontSize: "1rem" }}>Testimonials</span>
                                         </div>
                                         <div>
                                             <i data-feather="chevron-right"></i>
@@ -72,11 +81,19 @@ export default function Scraper({}) {
                                     </a>
                                 </div>
                             </div>
-                            <button type="button" class="btn btn-primary btn-block">View Demo</button>
+                            <button type="button" class="btn btn-primary btn-block">Add to Dashboard</button>
                         </div>
                     </div>
                     <div className="col-lg-7 mb-5 mb-lg-0 ml-lg-auto">
                         <article>
+                            <a name="introduction"><h5>Screenshots</h5></a>
+                            <ul style={{ listStyle: "none", overflowX: "scroll", width: "100%", whiteSpace: "nowrap" }}>
+                                <li style={{ display: "inline", marginRight: "2.5rem" }}><a href="#"><img alt="Image placeholder" className="shadow" src="/img/screenshot-1.png" style={{ width: "75%", marginBottom: "2rem" }} /></a></li>
+                                <li style={{ display: "inline", marginRight: "2.5rem" }}><a href="#"><img alt="Image placeholder" className="shadow" src="/img/screenshot-2.png" style={{ width: "75%", marginBottom: "2rem" }} /></a></li>
+                                <li style={{ display: "inline", marginRight: "2.5rem" }}><a href="#"><img alt="Image placeholder" className="shadow" src="/img/screenshot-3.png" style={{ width: "75%", marginBottom: "2rem" }} /></a></li>
+                                <li style={{ display: "inline", marginRight: "2.5rem" }}><a href="#"><img alt="Image placeholder" className="shadow" src="/img/screenshot-4.png" style={{ width: "75%", marginBottom: "2rem" }} /></a></li>
+                            </ul>
+                            <hr />
                             <a name="introduction"><h5>Introduction</h5></a>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -89,29 +106,10 @@ export default function Scraper({}) {
                                         <div className="card-header">
                                             <span className="h6 mb-0">Input</span>
                                         </div>
-
                                         <div className="list-group list-group-flush">
-                                            <span className="list-group-item d-flex justify-content-between px-4">
+                                            <span className="list-group-item" style={{ fontSize: "1rem", fontWeight: "400", color: "#718096" }}>
                                                 Product Link(s)
                                             </span>
-                                            <a href="#input_output" data-scroll-to data-scroll-to-offset="50" className="list-group-item list-group-item-action d-flex justify-content-between px-4">
-                                                <div>
-                                                    <i className="fas fa-sign-in-alt mr-2"></i>
-                                                    <span>Input & Output</span>
-                                                </div>
-                                                <div>
-                                                    <i data-feather="chevron-right"></i>
-                                                </div>
-                                            </a>
-                                            <a href="#comments" data-scroll-to data-scroll-to-offset="50" className="list-group-item list-group-item-action d-flex justify-content-between px-4">
-                                                <div>
-                                                    <i class="fas fa-comment-dots mr-2"></i>
-                                                    <span>Testimonials</span>
-                                                </div>
-                                                <div>
-                                                    <i data-feather="chevron-right"></i>
-                                                </div>
-                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -119,6 +117,20 @@ export default function Scraper({}) {
                                     <div className="card">
                                         <div className="card-header">
                                             <span className="h6 mb-0">Output</span>
+                                        </div>
+                                        <div className="list-group list-group-flush">
+                                            <span className="list-group-item" style={{ fontSize: "1rem", fontWeight: "400", color: "#718096" }}>
+                                                Price
+                                            </span>
+                                            <span className="list-group-item" style={{ fontSize: "1rem", fontWeight: "400", color: "#718096" }}>
+                                                Ratings
+                                            </span>
+                                            <span className="list-group-item" style={{ fontSize: "1rem", fontWeight: "400", color: "#718096" }}>
+                                                Reviews
+                                            </span>
+                                            <span className="list-group-item" style={{ fontSize: "1rem", fontWeight: "400", color: "#718096" }}>
+                                                Units Sold
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -130,7 +142,7 @@ export default function Scraper({}) {
                                 <div className="media-body">
                                     <div className="media-comment-bubble left-top">
                                         <h6 className="mt-0">Alexis Ren</h6>
-                                        <p className="text-sm lh-160 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <p className="lh-160 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     </div>
                                 </div>
                             </div>
@@ -139,7 +151,7 @@ export default function Scraper({}) {
                                 <div className="media-body">
                                     <div className="media-comment-bubble left-top">
                                         <h6 className="mt-0">Tom Cruise</h6>
-                                        <p className="text-sm lh-160 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <p className="lh-160 mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                     </div>
                                 </div>
                             </div>

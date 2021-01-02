@@ -21,9 +21,9 @@ export default function Scrapers({}) {
                                       <div className="icon">
                                           <img alt="Image placeholder" src="/img/logos/shopee.png" className="svg-inject" style={{ width: "50px", height: "50px"}} />
                                       </div>
-                                      <a href="#" className="d-block mt-3"><strong style={{ fontSize: "24px" }}>Shopee Price Monitor</strong></a>
-                                      <p className="text-sm text-muted">
-                                        Interested at a set of product listings on Shopee? Track its price movements via a beautiful dashboard and plan your next ten moves accordingly.
+                                      <a href="#" className="d-block mt-3"><strong style={{ fontSize: "24px", lineHeight: "1.5rem" }}>Shopee Product Listing Monitor</strong></a>
+                                      <p className="text-sm text-muted" style={{ marginTop: "0.5rem" }}>
+                                        Interested at a set of product listings on Shopee? Track various details such as price movements, ratings and reviews via a beautiful dashboard and plan your next ten moves accordingly.
                                       </p>
                                       <div className="mt-1">
                                           <a href="#" className="avatar avatar-xs rounded-lg">
